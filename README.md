@@ -1,2 +1,4 @@
-# socket-pandas
-socket bağlantısı ile python ile html dosyasının haberleşmesini sağladım. pandas kütüphanesini kullandım.
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python socket_handlers.py
